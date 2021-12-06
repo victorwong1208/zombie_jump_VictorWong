@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this edito
-gravity = 0.1;
+gravity = 0.2;
 gravity_direction=270
 
+
 if(place_meeting(x,y,obj_platform)&&vspeed>=0){
-	vspeed = -5;		
+	vspeed = -10;		
 }
 
 if(keyboard_check(vk_right)){
@@ -26,3 +27,4 @@ if(keyboard_check(vk_left)){
 	image_xscale = -1;
 	
 }
+

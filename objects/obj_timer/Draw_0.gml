@@ -1,6 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-//draw_set_font(fnt_Game)
 draw_set_color(c_white)
-draw_text(200,200,"Time Left: "+string(showTime));
+draw_text(global.cameraX+100,global.cameraY+100,"Time Left: "+string(showTime));
