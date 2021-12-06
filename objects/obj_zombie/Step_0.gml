@@ -4,7 +4,7 @@ gravity = 0.1;
 gravity_direction=270
 
 if(place_meeting(x,y,obj_platform)&&vspeed>=0){
-	vspeed = -4;		
+	vspeed = -5;		
 }
 
 if(keyboard_check(vk_right)){

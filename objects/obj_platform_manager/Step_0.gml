@@ -7,10 +7,10 @@ my_time--;
 
 if(my_time<=0){
 	
-	my_x = random_range(0,2000);
-	my_y = random_range(0,1000);
+	my_x = random_range(0,1920);
+	my_y = random_range(0,1280);
 	
-	my_time+=(room_speed*1);
+	my_time+=(room_speed*2);
 	
 	instance_create_layer(my_x, my_y, "Instances",obj_platform);
 	
