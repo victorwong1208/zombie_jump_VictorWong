@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-if myTime >0{
-	myTime = myTime-delta_time/1000000;
+if global.myTime >0{
+	global.myTime = global.myTime-delta_time/1000000;
 
 }
 else{
-	myTime = 0;
+	global.myTime = 0;
 	//game over
 }
 
-showTime = ceil(myTime)
+global.showTime = ceil(global.myTime)
 

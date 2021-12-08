@@ -15,7 +15,7 @@ targetY = clamp(targetY, 0, room_height- camera_get_view_height(cam));
 //cameraX = targetX;
 //cameraY = targetY;
 
-global.cameraX = lerp(global.cameraX, targetX,0.9);
-global.cameraY = lerp(global.cameraY, targetY,0.9);
+global.cameraX = lerp(global.cameraX, targetX,0.8);
+global.cameraY = lerp(global.cameraY, targetY,0.8);
 
 camera_set_view_pos(cam,global.cameraX,global.cameraY);

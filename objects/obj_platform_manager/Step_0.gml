@@ -7,12 +7,16 @@ my_time--;
 
 if(my_time<=0){
 	
-	my_x = random_range(0,1920);
-	my_y = random_range(0,1280);
+	my_x = random_range(50,1820);
+	my_y = random_range(100,1280);
 	
-	my_time+=(room_speed*2);
+	my_time+=(room_speed*3);
 	
-	instance_create_layer(my_x, my_y, "Instances",obj_platform);
+	if(instance_number(obj_platform)<=15){
+		instance_create_layer(my_x, my_y, "Instances",obj_platform);
+	}
+	
+	
 	
 	//instance_place()
 	

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-destroy_index = 3;
+destroy_index = 2;
 
 if(instance_place(x,y,obj_platform)!=noone){
 	instance_destroy(id);

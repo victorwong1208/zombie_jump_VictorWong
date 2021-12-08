@@ -4,6 +4,7 @@ gravity = 0.2;
 gravity_direction=270
 
 
+
 if(place_meeting(x,y,obj_platform)&&vspeed>=0){
 	vspeed = -10;		
 }
