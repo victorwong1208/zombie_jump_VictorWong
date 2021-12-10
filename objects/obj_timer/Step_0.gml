@@ -10,4 +10,10 @@ else{
 }
 
 global.showTime = ceil(global.myTime)
-
+if(global.showTime==60){
+	if(!audio_is_playing(snd_levelup)&&played ==false){
+		played= true;
+		audio_play_sound(snd_levelup,1,false);
+	}
+	
+}

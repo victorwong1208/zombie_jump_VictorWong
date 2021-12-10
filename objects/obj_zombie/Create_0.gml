@@ -3,5 +3,7 @@
 vspeed = -10;
 counter = 3;
 
+audio_play_sound(snd_background,1,false);
+
 
 
