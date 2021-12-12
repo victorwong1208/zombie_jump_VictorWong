@@ -5,6 +5,10 @@ gravity_direction=270
 
 horizontal_speed=6;
 
+if(global.showTime==0){
+	room_goto(Room_win);
+}
+
 if(global.showTime<=60){
 	sprite_index = spr_zombie_jump_angry
 	horizontal_speed =8;
